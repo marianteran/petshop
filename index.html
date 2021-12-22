@@ -23,7 +23,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
 
-    <title>Franco Petshop</title>
+    <title>Bruce Petshop</title>
 
 </head>
 
@@ -36,7 +36,7 @@
                     <div class="container">
                         <a class="navbar-brand" href="#">
                             <img src="./assets/img/adapt_icon/2.png" alt="" width="30" height="24" />
-                            <strong>Franco Petshop <h6 class="name_tienda_home">home</h6></strong>
+                            <strong>Bruce Petshop <h6 class="name_tienda_home">home</h6></strong>
                         </a>
                     </div>
                 </nav>
@@ -91,7 +91,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-md-6">
                         <div class="slider_text">
-                            <h3 class="titulo_home ps-3">FRANCO PETSHOP</h3>
+                            <h3 class="titulo_home ps-3">BRUCE PETSHOP</h3>
                             <!-- <h3>Porque se merecen lo mejor</h3> -->
                         </div>
                     </div>
@@ -325,21 +325,20 @@
                     </div>
                     <div class="col-xl-12 col-md-12 col-lg-12">
                         <div class="">
-                            <form action="contacto.html" class="formulario">
+                            <form action="" class="formulario">
                                 <div class="col-xl-6 col-lg-6 col-md-6 ">
                                     <p class="textoMini">Recibí nuestras promociones exclusivas y enterate de todas las
                                         novedades.</p>
                                 </div>
                                 <div class="row" class="inputs">
                                     <div class="col-xl-3 col-lg-4 col-md-6 ">
-                                        <input type="text" placeholder="Nombre" required>
+                                        <input type="text" placeholder="Nombre" name="nombre" id="nombre" required>
                                     </div>
                                     <div class="col-xl-3 col-lg-4 col-md-6 ">
-                                        <input type="email" placeholder="Email" required>
+                                        <input type="email" placeholder="Email" name="email" id="email" required>
                                     </div>
 
-                                    <button class="col-xl-4 col-lg-4 col-md-6 " type="submit"
-                                        id="submit">Suscribete</button>
+                                    <button input type="submit" class="col-xl-4 col-lg-4 col-md-6 "  value="Guardar" onclick="suscripcion_validar()">Suscribirme</button>
                                 </div>
                             </form>
                         </div>
@@ -355,7 +354,7 @@
                             <div class="footer_logo">
                                 <a class="footer_logo_index" href="index.html">
                                     <img src="./assets/img/adapt_icon/2.png" alt="" width="30" height="24" />
-                                    Franco Petshop
+                                    Bruce Petshop
                                 </a>
                             </div>
 
@@ -428,6 +427,7 @@
     <script>
         AOS.init();
     </script>
+    <script src="./js/main_contacto.js"></script>
 
 </body>
 

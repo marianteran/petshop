@@ -31,3 +31,21 @@ function validar_guardar() {
         }
        console.log(typeof doc)
 }
+
+
+//NEWSLATER 
+//FUNCION ALERTA DE SUSCRIPCION
+function suscripcion_validar(){ 
+    var nombre=document.getElementById("nombre");
+    var email=document.getElementById("email");
+                                        
+        if (nombre.value === ""){
+           alert("Debe ingresar un nombre")
+        }
+         if (email.value === "") {
+           alert("Debe ingresar un correo");
+       } else { 
+            alert("Estas registrado");
+         }
+       
+    }
