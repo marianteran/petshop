@@ -19,9 +19,9 @@ let texto = ""
 fetch("https://apipetshop.herokuapp.com/api/articulos")
     .then((response) => response.json())
     .then((info) => {
-        if (nameDocument == "Juguetes - Franco Petshop") {
+        if (nameDocument == "Juguetes - Bruce Petshop") {
             tipoProducto = "Juguete"; // GUARDAMOS
-        } else if (nameDocument == "Farmacia - Franco Petshop") {
+        } else if (nameDocument == "Farmacia - Bruce Petshop") {
             tipoProducto = "Medicamento";
         }
         dataProduc = info.response;
