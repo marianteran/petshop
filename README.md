@@ -29,4 +29,6 @@ It was developed using HTML, CCS, Javascript for api consumption and dynamic ren
 - [@claudiodmguzman](https://github.com/claudiodmguzman)
 - [@leandrogomez28](https://github.com/leandrogomez28)
 
-## Demo : https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+## Demo
+https://petshop-ruddy.vercel.app/
+https://marianteran.github.io/petshop/
